@@ -17,7 +17,7 @@
 		.o2logo_tt img { height: 40px; margin-top: 5px;}
 	.o2logo_nav { float: right;margin: 0 0 0 10px; }
 	.o2logo_nav li { float: left; }
-		.o2logo_nav a { display: block;height: 50px;line-height: 50px;padding-left: 15px;font-size:16px;color: #333; }
+		.o2logo_nav a { display: block;height: 50px;line-height: 50px;padding-left: 18px;font-size:16px;color: #333; }
 			.o2logo_nav a:hover { color:#6190e8;}
 	.o2logo_toggle { display: none; }
 	
@@ -75,7 +75,7 @@
     .o2logo_tt img { margin-top:0;}
 	.o2logo_nav { display: none;position: absolute;z-index: 2;top: 61px;left: 0;right: 0;margin: 0;background: #648fe7; }
 		.o2logo_nav li { float: none; }
-		.o2logo_nav a { height: 40px;line-height: 40px;font-size: 14px;color: #fff; }
+		.o2logo_nav a { height: 40px;line-height: 40px;font-size: 14px;color: #fff; padding-left: 15px;}
         .o2logo_nav a:hover {color: #fff;}
 		.o2logo_nav a:hover,.o2logo_nav a:active { text-decoration: none;background: rgba(255,255,255,0.1); }
 }	
