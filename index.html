@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body id="pagetop">
 
     <div class="mod_container">
 
@@ -239,7 +239,7 @@
 
         </div>
 
-        <a href="javascript:;" class="top" id="top">top</a>
+        <a href="#pagetop" class="top" id="top">top</a>
 
     </div>
 
@@ -256,11 +256,11 @@
                 element["on" + type] = handler;
             }
         }
+
      }
 
     var o2logoToggle = document.getElementById("o2logo_toggle"),
-        o2logoNav = document.getElementById("o2logo_nav"),
-        top = document.getElementById("top");
+        o2logoNav = document.getElementById("o2logo_nav");
 
     function toggle() {
         if( o2logoNav.style.display ==='block') {
@@ -274,13 +274,8 @@
         o2logoNav.style.display = "none";
     }
 
-    function scrollTop() {
-        document.body.scrollTop = 0;
-    }
-
     EventUtil.addHandler(o2logoToggle,'click',toggle);
     EventUtil.addHandler(o2logoNav,'click',navToggle);
-    EventUtil.addHandler(top,'click',scrollTop);
     
 
 </script>
