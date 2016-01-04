@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/*
+ * @author: wangcainuan@jd.com
+ * @time: 2015-12-10
+*/
+.o2logo_mod_inner, .o2logo_main { margin: 0 auto;max-width: 990px; }
+.o2logo_mod_hd { margin: 30px 0 0 0; }
+	.o2logo_mod_tt { padding: 5px 0;font-size: 20px;font-weight: bold; }
+	.o2logo_mod_txt { font-size: 14px; }
+	.o2logo_mod_tip { padding: 15px;margin-top: 10px;font-size: 14px;color: #808080;text-align: center;border: 1px solid #ebebeb;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px; }
+
+
+.o2logo_hd { position: relative;padding: 20px 10px;border-bottom: 1px solid #ebebeb; }
+	.o2logo_tt { float: left; }
+		.o2logo_tt img { height: 50px; }
+	.o2logo_nav { float: left;margin: 0 0 0 10px; }
+	.o2logo_nav li { float: left; }
+		.o2logo_nav a { display: block;height: 50px;line-height: 50px;padding: 0 10px;font-size:16px;color: #6190E8; }
+			.o2logo_nav a:hover { text-decoration: underline; }
+	.o2logo_toggle { display: none; }
+	
+.o2logo_main { padding: 0 20px; }
+
+.o2logo_all { margin: 30px 0 0 0; }
+	.o2logo_all_pic { margin: 30px 0 0; }
+	.o2logo_all_pic a { float: left;margin: 0 2% 20px 0 ;padding: 30px 0;text-align: center;border: 1px solid #ebebeb;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;-webkit-box-sizing: border-box;box-sizing: border-box;}
+	.o2logo_all_pic a:hover { border-color: #E0E6F1; }
+		.o2logo_all_pic a img { height: 130px; }
+		.o2logo_all_pic .o2logo_all_pic_2, .o2logo_all_pic .o2logo_all_pic_5, .o2logo_all_pic .o2logo_all_pic_8, .o2logo_all_pic .o2logo_all_pic_9, .o2logo_all_pic .o2logo_all_pic_11 { margin-right: 0; }
+	.o2logo_all_pic .o2logo_all_pic_1 {width: 25%; }
+	.o2logo_all_pic .o2logo_all_pic_2 { width: 73%; }
+	.o2logo_all_pic .o2logo_all_pic_3, .o2logo_all_pic .o2logo_all_pic_4, .o2logo_all_pic .o2logo_all_pic_6, .o2logo_all_pic .o2logo_all_pic_7 { margin-right: 2%;width: 32%; }
+	.o2logo_all_pic .o2logo_all_pic_5, .o2logo_all_pic .o2logo_all_pic_8 { width: 32%; }
+	.o2logo_all_pic .o2logo_all_pic_9 { width: 100%; }
+	.o2logo_all_pic .o2logo_all_pic_10, .o2logo_all_pic .o2logo_all_pic_11 { width: 49%;margin-bottom: 0; }
+	.o2logo_all_download { margin: 0 0 0 5px;padding: 0 0 0 20px;color: #6190E8;background: url(../images/download.jpg) 0 0 no-repeat; }
+		.o2logo_all_download:hover { text-decoration: underline; }	
+
+	.o2logo_color_list li { float: left;margin: 10px 2% 0 0;padding: 40px 0;width: 23.5%;text-align: center;color: rgba(255,255,255,0.5);font-size: 12px; }
+	    .o2logo_color_list li:nth-child(4n+4) { margin-right: 0; }
+	    .o2logo_color_web { padding: 0 0 5px 0;font-size: 14px;color: #fff; }
+	    .o2logo_color_item1 { background: #648fe7; }
+	    .o2logo_color_item2 { background: #1c1f28; }
+	    .o2logo_color_item3 { background: #000000; }
+	    .o2logo_color_item4 { background: #58595b; }
+
+.o2logo_size_item { margin: 20px 0;padding: 30px 0;width: 100%;text-align: center;border: 1px solid #ebebeb; }
+	.o2logo_size_item img { width: 400px; }
+
+.o2logo_safe_img ,.o2logo_small_img a { display: block;margin: 10px 0 0 0;padding: 30px 0;width: 100%;text-align: center;border: 1px solid #ebebeb;  }
+	.o2logo_safe_img img { width: 200px; }
+	.o2logo_small_img img { width: 100px; }
+
+
+.o2logo_no_list li { float: left;margin: 10px 2% 0 0;width: 23.5%;text-align: center; }
+.o2logo_no_list li:nth-child(4n+4) { margin-right: 0; }
+.o2logo_no_txt { padding: 5px 10px;height: 52px; }
+
+.o2logo_bg_main, .o2logo_assist_main a { display: block;padding: 30px 0; margin: 20px 0 0 0;text-align: center;border: 1px solid #ebebeb; }
+.o2logo_bg_main img, .o2logo_assist_main img { width: 50%; }
+
+.o2logo_footer { padding: 20px 0;text-align: center;color: #fff;background: #6190e8; }
+
+.top { position: fixed;bottom: 30px;right: 0;padding: 5px;font-size: 12px;background: #6190e8;color: #fff; }
+
+
+@media (min-width:991px) {
+	.o2logo_nav { display: block!important; }
+}
+@media (max-width:990px) {
+	.o2logo_toggle { display: block;position: absolute;right: 10px;top: 50%;margin-top: -17px;padding: 5px;background-color: transparent;border: 1px solid #ebebeb; }
+	.o2logo_toggle_icon {  display: block;width: 22px;height: 2px;border-radius: 1px;background-color: #6190e8;margin: 4px; }
+	.o2logo_nav { display: none;position: absolute;z-index: 2;top: 91px;left: 0;right: 0;margin: 0;background: #648fe7; }
+		.o2logo_nav li { float: none; }
+		.o2logo_nav a { height: 40px;line-height: 40px;font-size: 14px;color: #fff; }
+		.o2logo_nav a:hover,.o2logo_nav a:active { text-decoration: none;background: rgba(255,255,255,0.1); }
+}	
+
+@media (max-width:800px) {
+	.o2logo_no_list li { margin: 10px 2% 0 0;width: 49%; }
+	.o2logo_no_list li:nth-child(2n+2) { margin-right: 0; }
+}
+
+@media (max-width:640px) {
+	.o2logo_all .o2logo_all_pic a { width: 100%;margin: 0 0 20px; }
+	.o2logo_all .o2logo_all_pic a img { width: 30%;height: auto; }
+
+	.o2logo_color_list li { margin-right: 2%;width: 49%; }
+	.o2logo_color_list li:nth-child(4n+2) { margin-right: 0; }
+
+	.o2logo_bg_main img, .o2logo_assist_main img { width: 80%; }
+}
+
+@media (max-width:500px) {
+	.o2logo_size_item img { width: 250px; }
+}
+
+@media (max-width:400px) {
+	.o2logo_no_list li { margin: 10px 0 0 0;width: 100%; }
+}
