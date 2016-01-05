@@ -33,7 +33,7 @@
 	.o2logo_all_pic .o2logo_all_pic_2 { width: 73%; }
 	.o2logo_all_pic .o2logo_all_pic_3, .o2logo_all_pic .o2logo_all_pic_4, .o2logo_all_pic .o2logo_all_pic_6, .o2logo_all_pic .o2logo_all_pic_7 { margin-right: 2%;width: 32%; }
 	.o2logo_all_pic .o2logo_all_pic_5, .o2logo_all_pic .o2logo_all_pic_8 { width: 32%; }
-	.o2logo_all_pic .o2logo_all_pic_9 { width: 100%; }
+	.o2logo_all_pic .o2logo_all_pic_0, .o2logo_all_pic .o2logo_all_pic_9 { width: 100%; }
 	.o2logo_all_pic .o2logo_all_pic_10, .o2logo_all_pic .o2logo_all_pic_11 { width: 49%;margin-bottom: 0; }
 	.o2logo_all_download { margin: 0 0 0 5px;padding: 0 0 0 20px;color: #6190E8;background: url(../images/download.png) 0 3px no-repeat;background-size:16px; }
 		.o2logo_all_download:hover { text-decoration: underline; }	
