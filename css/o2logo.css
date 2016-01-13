@@ -11,7 +11,7 @@
 	.o2logo_mod_txt { font-size: 14px; margin-bottom: 15px;}
 	.o2logo_mod_tip { padding: 15px;margin-top: 10px;font-size: 14px;color: #808080;text-align: center;border: 1px solid #ff7518;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px; }
 
-
+.wx_pic { display:none; }
 .o2logo_hd { position: relative;padding: 10px 15px;border-bottom: 1px solid #ebebeb; }
 	.o2logo_tt { float: left; }
 		.o2logo_tt img { height: 40px; margin-top: 5px;}
